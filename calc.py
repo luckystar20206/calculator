@@ -1,15 +1,20 @@
+# Import the tkinter library
 import tkinter as tk
 
+# Define the style for large font
 LARGE_FONT_STYLE = ("Arial", 40, "bold")
+# Define the style for small font
 SMALL_FONT_STYLE = ("Arial", 16)
+# Define the style for digits font
 DIGITS_FONT_STYLE = ("Arial", 24, "bold")
+# Define the default font style
 DEFAULT_FONT_STYLE = ("Arial", 20)
 
+# Define some colors
 OFF_WHITE = "#F8FAFF"
 WHITE = "#FFFFFF"
 LIGHT_BLUE = "#CCEDFF"
 LIGHT_GRAY = "#F5F5F5"
-LABEL_COLOR = "#25265E"
 
 
 class Calculator:
